@@ -3,16 +3,22 @@
     margin:  0;
     padding: 0;
     box-sizing: border-box;
-    background: url() no-repeat center center fixed;
+}
+
+
+body{
+    background: url(autodel\ concesionario.jpg) no-repeat center center fixed;
     background-size: cover; 
 }
+
+
 
 .Contenedor{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
-    color: brown;
+    color: rgb(8, 8, 8);
 }
 button {
     display: inline-block;
@@ -21,29 +27,23 @@ button {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    pointer-events: none;
 }
 h2{
     align-items: center;
     justify-content: center;
     display: flex;
     height: 100%;
-    color: blue; 
+    color: rgb(0, 0, 0); 
 }
-
-.Suptitulo{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    height: 100%;
-    color: rgb(33, 116, 0);
-}
-
 
 p{
-    color: rgb(255, 0, 0); 
+    color:white; 
     font-size: 24px;
 }
 
-body{
-background-image: url(https://www.memo.com.ar/economia/multa-de-500-000-para-una-concesionaria-de-autos-mendocina/#galleryzoom);
+.imagen {
+    position: absolute;
+    left: 39%;
+    top: 45%;
 }

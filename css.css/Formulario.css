@@ -1,5 +1,11 @@
 *{
-    background: url(descarga.img) no-repeat center center fixed;
+    margin:  4px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(fonfo_de_la_tabla.jpg) no-repeat center center fixed;
     background-size: cover; 
 }
 
@@ -8,11 +14,7 @@ h1{
     justify-content: center;
     display: flex;
     height: 100%;
-    color: blue; 
-}
-p{
-    color: rgb(253, 0, 0); 
-    font-size: 24px;
+    color:white; 
 }
 
 #parrafo{
@@ -24,7 +26,6 @@ p{
     color:red; 
 }
 
-
 .registro{
     width: 400px;
     padding: 30px;
@@ -32,12 +33,13 @@ p{
     margin-top: 100px;
     border-radius: 4px;
     font-family:'calibri';
-    color:red;
+    color:rgb(88, 36, 36);
 }
 
 .registro h4{
     font-size: 42px;
     margin-bottom: 20px;
+    color: rgb(2, 2, 2);
 }
 
 .controls{
@@ -55,4 +57,13 @@ p{
     color: black;
     padding: 10px;
     border-radius: 4px
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
