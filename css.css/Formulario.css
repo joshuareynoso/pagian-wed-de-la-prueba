@@ -39,7 +39,7 @@ h1{
 .registro h4{
     font-size: 42px;
     margin-bottom: 20px;
-    color: rgb(2, 2, 2);
+    color: rgb(255, 249, 249);
 }
 
 .controls{
@@ -56,14 +56,11 @@ h1{
     background: red;
     color: black;
     padding: 10px;
-    border-radius: 4px
 }
 
 button {
-    display: inline-block;
     padding: 10px 20px;
     background-color: blue;
     color: white;
-    text-decoration: none;
-    border-radius: 5px;
+    
 }
